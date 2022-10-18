@@ -173,11 +173,12 @@ body {
 }
 .card-desc {
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: 'Open sans', sans-serif;
   font-size: 15px;
 }
 .history {
   margin-top: 150px;
+  padding-bottom: 200px;
 }
 .history-title {
   font-family: 'Lobster', cursive;
@@ -186,6 +187,7 @@ body {
   text-align: center;
 }
 .history-desc {
+  font-family: 'Open sans', sans-serif;
   font-size: 20px;
   width: 450px;
   text-align: center;
@@ -200,18 +202,74 @@ body {
 .image-1 {
   position: absolute;
   z-index: 0;
-  top: -40px;
+  top: -87px;
   left: -343px;
 }
 .image-2 {
   position: absolute;
   z-index: 999;
-  top: -65px;
-  left: -125px;
+  top: -149px;
+  left: -95px;
 }
 .image-3 {
   position: absolute;
   z-index: 999;
-  top: 250px;
-  left: -190px;
+  top: 47px;
+  left: -222px;
+}
+
+.black-block {
+  background-image: url(black-bg.jpg);
+  padding: 80px 0;
+}
+.left-title {
+  color: #fb7507;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.left-text {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Open sans', sans-serif;
+}
+.right-btn {
+  background-color: #ff7400;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open sans', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s linear;
+}
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dishes-title {
+  color: black;
+  font-family: 'Open sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 132px;
+  margin-bottom: 139px;
+}
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+.burger-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.burgers-image {
+  margin-right: 20px;
+}
+.burger-text {
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
 }
